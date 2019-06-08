@@ -78,7 +78,7 @@ Permissions
 
 There are two levels of users. If you are superuser (set in Django admin site), you can see and do everything. If you are just regular staff user (set in Django admin site), you have limited view and actions you can do.
 
-1. Ifyou are using Apache maybe will help if error 500
+1. If you are using Apache maybe will help if error 500 appear
    ```bash
    $ chown -R www-data:www-data DEP_tool/
    ``` 
