@@ -11,8 +11,10 @@ Requirements
 
 * Linux host (preffered)
 * Python 3.0+ and its Django library
-* Micromdm json located in /PATH/TO/YOUR/DEP-Profile.json
-* Database file located in /var/db/deptool/database.sqllite3
+* Micromdm json located in /PATH/TO/YOUR/DEP-Profile.json 
+  * Path to mdmctl .json.
+  * MDMCTL_JSON = os.path.join(BASE_DIR, '/PATH/TO/YOUR/DEP-Profile.json')
+* Database file located in /var/db/deptool/database.sqllite3 or  /PATH/TO/YOUR/database.sqllite3
 
 
 Setting up
@@ -20,7 +22,7 @@ Setting up
 
 1. Clone the `DEP_tool` Git repository:
    ```bash
-   $ git clone xxxxxxxx
+   $ git clone https://github.com/trekkim/DEPTool.git
    $ cd DEP_tool
    ```
 2. Make sure you have .json record file in /PATH/TO/YOUR/DEP-Profile.json.
@@ -37,6 +39,7 @@ Setting up
    ```bash
    $ python3 manage.py makemigrations
    $ python3 manage.py migrate
+   $ python3 manage.py createsuperuser
    ```
 6. You should be able to run the tool.
    ```bash
