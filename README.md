@@ -3,7 +3,7 @@
 DEP Tool
 =================
 
-This Django project provides a custom webapp interface to micromd service (https://github.com/micromdm/micromdm). It handles adding and removing records in .json record file, applying configuration and generally running a couple of defined commands.
+This Django project provides a custom webapp interface to microMDM service (https://github.com/micromdm/micromdm). It handles adding and removing records in .json record file, applying configuration and generally running a couple of defined commands.
 
 
 Requirements
@@ -77,3 +77,8 @@ Permissions
 =================
 
 There are two levels of users. If you are superuser (set in Django admin site), you can see and do everything. If you are just regular staff user (set in Django admin site), you have limited view and actions you can do.
+
+6. Ifyou are using Apache maybe will help if error 500
+   ```bash
+   $ chown -R www-data:www-data DEP_tool/
+   ``` 
