@@ -85,3 +85,33 @@ There are two levels of users. If you are superuser (set in Django admin site), 
    ```bash
    $ chown -R www-data:www-data DEP_tool/
    ``` 
+
+
+
+Working Parts
+=================
+
+
+1. Add & Remove Device
+2. Show Devices
+3. Apply Chnages (mdmctl apply dep-profiles -f /PATH/TO/YOUR/JSON)
+4. Service Status - ServerName| Active | Inactive | last restart
+5. First Api - Sync Dep Devices
+6. Dasboard (in progress)
+ 
+Not Working yet
+=================
+
+so many parts :-(
+
+
+
+
+
+
+
+
+
+
+
+
