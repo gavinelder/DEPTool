@@ -1,4 +1,4 @@
-!!!NOT READY YET!!!
+!!!Check in beta!!!
 =================
 DEP Tool
 =================
