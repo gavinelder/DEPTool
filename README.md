@@ -20,13 +20,13 @@ Requirements
 Setting up
 =================
 
-1. Clone the `DEP_tool` Git repository:
+1. Clone the `DEPTool` Git repository:
    ```bash
    $ git clone https://github.com/trekkim/DEPTool.git
-   $ cd DEP_tool
+   $ cd DEPTool
    ```
 2. Make sure you have .json record file in /PATH/TO/YOUR/DEP-Profile.json.
-3. Create a Python virtual environment for `DEP_tool`.
+3. Create a Python virtual environment for `DEPTool`.
    ```bash
    $ python3 -m venv venv
    ```
@@ -49,6 +49,10 @@ Setting up
    * https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-16-04
    * https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-16-04
 
+8. Edit username in run_as_munkiadmin.sh
+9. Edit env file
+
+10. For quick testing .json and .db is in configs/ preloaded & test user: test pwd: test
 
 Adding new "button functionality" to main view
 =================
@@ -103,15 +107,4 @@ Not Working yet
 =================
 
 so many parts :-(
-
-
-
-
-
-
-
-
-
-
-
 
