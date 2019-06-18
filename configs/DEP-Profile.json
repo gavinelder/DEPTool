@@ -1,0 +1,1 @@
+{"url": "whatever", "is_mdm_removable": "whatever", "allow_pairing": "whatever", "devices": ["C20XXXXXXX", "C20XXXXXX1", "C20XXXXXX2", "C20XXXXXX3"], "is_mandatory": "whatever", "is_supervised": "whatever", "skip_setup_items": ["whatever"], "await_device_configured": "whatever", "profile_name": "whatever", "org_magic": "whatever"}
